@@ -1,0 +1,369 @@
+*{
+    
+    margin:0;
+    font-style: arial;
+    
+    
+}
+
+
+.navbar{
+    background-color: #f8fafc;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    
+
+
+}
+
+.nav-content p{
+    display: inline;
+    margin-right: 90px;
+    font-size: 130%;
+    
+}
+
+.nav-content{
+    margin-left:500px;
+}
+.download-cv{
+    
+    background-color: #2563eb;
+    height: 35px;
+    width : 130px;
+    border-radius: 10px;
+    color:blanchedalmond;
+    font-size:100%;
+    
+
+}
+.nav-logo{
+    display: flex;
+    color: rgb(14, 12, 12);
+    margin-left: 20PX;
+    font-size: 200%;
+    font-weight: bolder ;
+    align-items: center;
+
+}
+
+.border{
+    border-bottom: 3px solid transparent;
+}
+.border:hover{
+    border-bottom: 3px solid blue;
+}
+
+
+/* My info */
+
+.main-content{
+    background-color: #f8fafc;
+    height: 580px;
+    margin-top :20px;
+    display: flex;
+    
+    
+}
+
+
+.box{
+    background-color: #f8fafc;
+    height: 100px;
+    width: 600px;
+    margin-left:120px;
+    margin-top: 120px;
+}
+.hi{
+    color:#2563eb;
+    font-weight:bolder ;
+    font-size: 30px;
+}
+.box h1{
+    color:rgb(0, 0, 0);
+    font-size: 100px;
+
+}
+.box h3{
+    font-size: 40px;
+    display: inline;
+}
+.diff{
+    display: inline;
+
+}
+.para-color{
+    color:#2563eb
+}
+.button1{
+    margin-top: 50px;
+   background-color: #2563eb;
+   color:white;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+.button2{
+    height: 40px;
+    width:200px;
+    font-size: 15px;
+    border-radius:10px ;
+    margin-left:20px;
+
+}
+.icon{
+    margin-top: 50px;
+    margin-left:50px;
+    
+}
+
+/* box2 */
+
+
+
+.box2{
+
+    background-color: #b4d21e;
+    height: 470px;
+    width: 510px;
+    margin-left:50px;
+    margin-top: 100px;
+    background-image:url(portfolio\ background\ removed\ photo.jpeg) ;
+    background-size: contain;
+}
+
+/* box3 */
+
+.box3{
+    background-color: #b4d21e;
+    height: 200px;
+    width: 510px;
+}
+main{
+    background-color: #f8fafc;
+    height: 1100px;
+}
+.about-me{
+    background-color: #eeeff1;
+    
+    height: 200px;
+    width: 1200px;
+    margin-left:110px;
+    display :flex;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+.logo-person{
+    background-color:#eeeff1;
+    height: 150px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.about{
+    color:#2563eb;
+    font-size:20px;
+    margin-right: 200px;
+    font-weight: bolder;
+
+
+    
+ 
+
+}
+.new{
+    font-size: 35px;
+    margin-right:60px;
+    
+
+}
+.person{
+    font-size: 100px;
+    background-color: #eeeff1;
+    
+    width:120px;
+    margin-top: 30px;
+    height: 100px;
+
+}
+.detail{
+    text-align: left;
+    font-size: large;
+    margin-top: 40px;
+    font-weight:bolder ;
+}
+
+
+ .skill-section    {
+    margin-left: 120px;
+}
+.box-all{
+    height:250px;
+    width: 1330px;
+ 
+    margin-left:100px;
+    display:flex;
+}
+.one-box{
+    height:200px;
+    width: 200px;
+    background-color:  #eeeff1;
+    margin-left: 100px;
+    background-size: contain;
+    border-radius: 10px;
+    border: aqua 1.8px solid;
+    
+    
+}
+
+.my-projects   {
+    margin-left: 120px;
+}
+
+
+.projects{
+    background-color: #f8fafc;
+    height: 500px;
+    width: 1500px;
+    display: flex;
+}
+.amazon-clone{
+    height: 200px ;
+    width: 600px;
+    background-color:#eeeff1;
+    margin-top: 20px;
+    margin-left: 120px;
+    display: flex;
+    border-radius: 20px;
+}
+.amazon-img{
+    background-color:#eeeff1;
+    height: 180px;
+    width: 300px;
+    margin-left: 5px;
+    margin-top:10px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.amazon-write{
+    background-color: #eeeff1;
+    width:280px;
+ }
+  h5{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.amazon-content{
+    margin-top: 30px;
+    margin-left:25px ;
+
+}
+.amazon-button{
+    border: 2px #2563eb solid;
+    margin-top: 25px;
+    margin-left:40px;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    color:#2563eb;
+    font-weight: bolder;
+
+}
+
+
+
+
+/* new is */
+
+.portfolio{
+    height: 200px ;
+    width: 600px;
+    background-color:#eeeff1;
+    margin-top: 20px;
+    margin-left: 600px;
+    display: flex;
+    border-radius: 20px;
+}
+.portfolio-img{
+    background-color:#eeeff1;
+    height: 180px;
+    width: 300px;
+    margin-left: 5px;
+    margin-top:10px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.pot-write{
+    background-color: #eeeff1;
+    width:280px;
+ }
+.pot-name{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.pot-content{
+    margin-top: 30px;
+    margin-left:25px ;
+
+}
+.pot-button{
+    border: 2px #2563eb solid;
+    margin-top: 25px;
+    margin-left:40px;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    color:#2563eb;
+    font-weight: bolder;
+
+}
+.connect{
+    height: 200px;
+    width: 1200px;
+    background-color: #eeeff1;
+    
+    margin-left: 110px;
+    border-radius:30px ;
+    display: flex;
+}
+.icon-contact{
+    height:80px ;
+    width: 80px;
+    background-color:#eeeff1;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 50px;
+    margin-top:80px;
+    margin-left: 60px;
+}
+.let-connect{
+    margin-top:80px;
+    margin-left:60px;
+    font-size: 20px;
+    background-color:#eeeff1;
+}
+.handels{
+    margin-top: 60px;
+    margin-left: 180px;
+    
+    font-size: 30px;
+}
+.account{
+    margin-top:60px;
+    margin-left: 30px;
+    font-size:30px;
+}
+
+
+
+    
+
